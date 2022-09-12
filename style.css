@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Dosis:wght@600 & display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+.main-header {
+background-image: url("imgem4.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+font-family: 'Dosis', sans-serif;
+position: relative;
+overflow: hidden;
+
+}
+
+.main-nav {
+    display: flex;
+    background: black;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+ul li a:hover{
+    background-color: rgb(9, 9, 168);
+
+}
+
+.content-header {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.content-header h1 {
+    font-size: 7rem;
+
+}
+
+.content-header p {
+   font-size: 1.5rem;
+   margin: 15px 30px;
+}
+
+.content-header a {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: rgb(90, 90, 238);
+    color: white;
+}
+
+.content-header a:hover {
+    background-color: rgb(9, 9, 168);
+    border: 2px solid white;
+    padding: 13px 18px;
+
+}
+.linea,
+.linea2{
+    position: absolute;
+    width: 40px;
+    height: 130%;
+    background: blue;
+    right: 10%;
+    top: -50px;
+    transform: rotate(15deg);
+    z-index: 1;
+    background-image: linear-gradient(to right top, #785108, #8a6009, #9c700a, #ae800a, #c09109);
+}
+
+.linea2{
+    right: 15%;
+}
